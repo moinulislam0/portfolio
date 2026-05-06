@@ -15,6 +15,48 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+     
+      .btn-appstore {
+        background-color: #007aff;
+        color: #ffffff !important;
+        padding: 10px 24px;
+        border-radius: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        transition: background 0.3s ease;
+        border: none;
+        font-size: 15px;
+      }
+      .btn-appstore:hover {
+        background-color: #0056b3;
+      }
+      .btn-demo {
+        background-color: #1a1f26;
+        color: #ffffff !important;
+        padding: 10px 24px;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+        font-size: 15px;
+      }
+      .btn-demo:hover {
+        background-color: #2c3440;
+      }
+      .live-badge {
+        color: #007aff;
+        font-weight: 800;
+        font-size: 24px;
+        display: block;
+        margin-bottom: 4px;
+      }
+    </style>
   </head>
   <body>
     <div class="page-shell">
@@ -54,13 +96,16 @@
                 <a class="button button-secondary" href="mailto:moinul15-3786@diu.edu.bd">Hire Me</a>
               </div>
               <ul class="hero-metrics">
+               <li>
+    <span class="live-badge"><strong>Live</strong></span>
+    <a href="https://apps.apple.com/us/app/silent-whistle/id6761802135" target="_blank">
+        <span>App Store </span>
+    </a>
+</li>
+</li>
                 <li>
                   <strong>4+</strong>
                   <span>Production-style Apps</span>
-                </li>
-                <li>
-                  <strong>1+</strong>
-                  <span>Years of Practical Learning</span>
                 </li>
                 <li>
                   <strong>BSc</strong>
@@ -243,13 +288,80 @@
             </div>
 
             <div class="project-showcase">
+
               <article class="project-card project-card-rich reveal">
+                <div class="project-preview">
+                    <img src="assets/thedig-portfolio-mockup.png" alt="Silent Whistle portfolio mockup" />
+                </div>
+                <div class="project-body">
+                  <div class="project-head">
+                    <span class="project-number">01</span>
+                    <h3>Silent Whistle - GeoSocial Platform</h3>
+                  </div>
+                  <p>
+                    A geo-fenced social networking app for Bangladesh and Nigeria focused on local
+                    interaction, privacy, and safe community sharing.
+                  </p>
+                  <ul class="chip-list">
+                    <li>Flutter</li>
+                    <li>Firebase</li>
+                    <li>Riverpod</li>
+                    <li>Live Location</li>
+                    <li>Google Auth</li>
+                    <li>Apple Auth</li>
+                    <li>IAP</li>
+                  </ul>
+                  <p class="project-feature">
+                    Features: map-based discovery, live location, shout posting, notifications,
+                    moderation flows, and premium access support.
+                  </p>
+                  <div class="project-slider" data-slider>
+                    <button class="slider-arrow slider-arrow-prev" type="button" aria-label="Previous image">
+                      &larr;
+                    </button>
+                    <div class="project-gallery-window">
+                      <div class="project-gallery-track">
+                        <img src="assets/geosocial-login-dark.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-onboarding-1.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-onboarding-2.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-onboarding-3.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-login.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-apple-signin.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-home.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-observation.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-user-profile.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-report-user.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-report-menu.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-map.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-shout-text.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-shout.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-terms.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-alerts.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-settings.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-blocked-users.png" alt="Silent Whistle screen" />
+                        <img src="assets/geosocial-security-settings.png" alt="Silent Whistle screen" />
+                      </div>
+                    </div>
+                    <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next image">
+                      &rarr;
+                    </button>
+                    <div class="slider-dots" aria-label="Slider pagination"></div>
+                  </div>
+                  <div class="project-links">
+                    <a href="https://drive.google.com/file/d/1TXm4jawUw5dE7-v9bVN6MyOw6X6GFKiP/view?usp=sharing" target="_blank" rel="noreferrer" class="btn-demo">Video Demo</a>
+                    <a href="https://apps.apple.com/us/app/silent-whistle/id6761802135" target="_blank" rel="noreferrer" class="btn-appstore">App Store (Live)</a>
+                  </div>
+                </div>
+              </article>
+
+              <!-- PROJECT 02: FITNESS -->
+              <article class="project-card project-card-rich reveal delay-1">
                 <div class="project-preview">
                   <img src="assets/fitness-portfolio-mockup.png" alt="Fitness Guide App portfolio mockup" />
                 </div>
                 <div class="project-body">
                   <div class="project-head">
-                    <span class="project-number">01</span>
+                    <span class="project-number">02</span>
                     <h3>Fitness Guide App</h3>
                   </div>
                   <p>
@@ -274,13 +386,13 @@
                     </button>
                     <div class="project-gallery-window">
                       <div class="project-gallery-track">
-                        <img src="assets/fitness-login-alt.png" alt="Fitness Guide App alternate login screen" />
-                        <img src="assets/fitness-home.png" alt="Fitness Guide App home screen" />
-                        <img src="assets/fitness-playlist.png" alt="Fitness Guide App playlist screen" />
-                        <img src="assets/fitness-profile.png" alt="Fitness Guide App profile screen" />
-                        <img src="assets/fitness-drawer.png" alt="Fitness Guide App drawer screen" />
-                        <img src="assets/fitness-settings.png" alt="Fitness Guide App settings screen" />
-                        <img src="assets/fitness-delete-modal.png" alt="Fitness Guide App delete account modal" />
+                        <img src="assets/fitness-login-alt.png" alt="Fitness screen" />
+                        <img src="assets/fitness-home.png" alt="Fitness screen" />
+                        <img src="assets/fitness-playlist.png" alt="Fitness screen" />
+                        <img src="assets/fitness-profile.png" alt="Fitness screen" />
+                        <img src="assets/fitness-drawer.png" alt="Fitness screen" />
+                        <img src="assets/fitness-settings.png" alt="Fitness screen" />
+                        <img src="assets/fitness-delete-modal.png" alt="Fitness screen" />
                       </div>
                     </div>
                     <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next image">
@@ -289,19 +401,20 @@
                     <div class="slider-dots" aria-label="Slider pagination"></div>
                   </div>
                   <div class="project-links">
-                    <a href="https://drive.google.com/file/d/1aZtM3QAmw1DH8A9qsKFA-Bs4UhyiV0N8/view?usp=drive_link" target="_blank" rel="noreferrer">Video Demo</a>
-                    <a href="https://drive.google.com/file/d/1SkzAxSowbGNzK_J65sof_ht2yrZ6vR8A/view?usp=drive_link" target="_blank" rel="noreferrer">APK Link</a>
+                    <a href="https://drive.google.com/file/d/1aZtM3QAmw1DH8A9qsKFA-Bs4UhyiV0N8/view?usp=drive_link" target="_blank" rel="noreferrer" class="btn-demo">Video Demo</a>
+                    <a href="https://drive.google.com/file/d/1SkzAxSowbGNzK_J65sof_ht2yrZ6vR8A/view?usp=drive_link" target="_blank" rel="noreferrer" class="btn-demo" style="background: #333;">APK Link</a>
                   </div>
                 </div>
               </article>
 
-              <article class="project-card project-card-rich reveal delay-1">
+
+              <article class="project-card project-card-rich reveal delay-2">
                 <div class="project-preview">
                   <img src="assets/snaptap-portfolio-mockup.png" alt="OneLink Feedback portfolio mockup" />
                 </div>
                 <div class="project-body">
                   <div class="project-head">
-                    <span class="project-number">02</span>
+                    <span class="project-number">03</span>
                     <h3>OneLink Feedback System</h3>
                   </div>
                   <p>
@@ -327,24 +440,24 @@
                     </button>
                     <div class="project-gallery-window">
                       <div class="project-gallery-track">
-                        <img src="assets/onelink-menu.png" alt="OneLink side menu screen" />
-                        <img src="assets/onelink-analytics.png" alt="OneLink analytics screen" />
-                        <img src="assets/onelink-request.png" alt="OneLink request screen" />
-                        <img src="assets/onelink-history.png" alt="OneLink request history screen" />
-                        <img src="assets/onelink-reminders.png" alt="OneLink reminders screen" />
-                        <img src="assets/onelink-qr.png" alt="OneLink QR review link screen" />
-                        <img src="assets/onelink-reviews-ai.png" alt="OneLink reviews AI screen" />
-                        <img src="assets/onelink-ai-agents.png" alt="OneLink AI agents screen" />
-                        <img src="assets/onelink-subscriptions.png" alt="OneLink subscriptions plan screen" />
-                        <img src="assets/onelink-billing.png" alt="OneLink billing history screen" />
-                        <img src="assets/onelink-billing-history.png" alt="OneLink billing invoice screen" />
-                        <img src="assets/onelink-pdf-export.png" alt="OneLink PDF export screen" />
-                        <img src="assets/onelink-settings-general.png" alt="OneLink general setting screen" />
-                        <img src="assets/onelink-settings-security.png" alt="OneLink privacy and security screen" />
-                        <img src="assets/onelink-settings-integrations.png" alt="OneLink integrations screen" />
-                        <img src="assets/onelink-settings-notifications.png" alt="OneLink notification settings screen" />
-                        <img src="assets/onelink-notifications-panel.png" alt="OneLink notifications drawer screen" />
-                        <img src="assets/onelink-logout-modal.png" alt="OneLink logout confirmation modal" />
+                        <img src="assets/onelink-menu.png" alt="OneLink screen" />
+                        <img src="assets/onelink-analytics.png" alt="OneLink screen" />
+                        <img src="assets/onelink-request.png" alt="OneLink screen" />
+                        <img src="assets/onelink-history.png" alt="OneLink screen" />
+                        <img src="assets/onelink-reminders.png" alt="OneLink screen" />
+                        <img src="assets/onelink-qr.png" alt="OneLink screen" />
+                        <img src="assets/onelink-reviews-ai.png" alt="OneLink screen" />
+                        <img src="assets/onelink-ai-agents.png" alt="OneLink screen" />
+                        <img src="assets/onelink-subscriptions.png" alt="OneLink screen" />
+                        <img src="assets/onelink-billing.png" alt="OneLink screen" />
+                        <img src="assets/onelink-billing-history.png" alt="OneLink screen" />
+                        <img src="assets/onelink-pdf-export.png" alt="OneLink screen" />
+                        <img src="assets/onelink-settings-general.png" alt="OneLink screen" />
+                        <img src="assets/onelink-settings-security.png" alt="OneLink screen" />
+                        <img src="assets/onelink-settings-integrations.png" alt="OneLink screen" />
+                        <img src="assets/onelink-settings-notifications.png" alt="OneLink screen" />
+                        <img src="assets/onelink-notifications-panel.png" alt="OneLink screen" />
+                        <img src="assets/onelink-logout-modal.png" alt="OneLink screen" />
                       </div>
                     </div>
                     <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next image">
@@ -353,87 +466,22 @@
                     <div class="slider-dots" aria-label="Slider pagination"></div>
                   </div>
                   <div class="project-links">
-                    <a href="https://drive.google.com/file/d/13gCq_OUp7PjOKK2f_beoun6hFVhKq85_/view?usp=drive_link" target="_blank" rel="noreferrer">Video Demo</a>
-                    <a href="https://drive.google.com/file/d/1BdQGF5sBmr_VEgRn9a8kG662-EwbFDIz/view?usp=sharing" target="_blank" rel="noreferrer">APK Link</a>
+                    <a href="https://drive.google.com/file/d/13gCq_OUp7PjOKK2f_beoun6hFVhKq85_/view?usp=drive_link" target="_blank" rel="noreferrer" class="btn-demo">Video Demo</a>
+                    <a href="https://drive.google.com/file/d/1BdQGF5sBmr_VEgRn9a8kG662-EwbFDIz/view?usp=sharing" target="_blank" rel="noreferrer" class="btn-demo" style="background: #333;">APK Link</a>
                   </div>
                 </div>
               </article>
 
-              <article class="project-card project-card-rich reveal delay-2">
-                <div class="project-preview">
-                                    <img src="assets/thedig-portfolio-mockup.png" alt="The Dig portfolio mockup" />
-
-                </div>
-                <div class="project-body">
-                  <div class="project-head">
-                    <span class="project-number">03</span>
-                    <h3>GeoSocial - Location Based Social Platform</h3>
-                  </div>
-                  <p>
-                    A geo-fenced social networking app for Bangladesh and Nigeria focused on local
-                    interaction, privacy, and safe community sharing.
-                  </p>
-                  <ul class="chip-list">
-                    <li>Flutter</li>
-                    <li>Firebase</li>
-                    <li>Riverpod</li>
-                    <li>Live Location</li>
-                    <li>Google Auth</li>
-                    <li>Apple Auth</li>
-                    <li>IAP</li>
-                  </ul>
-                  <p class="project-feature">
-                    Features: map-based discovery, live location, shout posting, notifications,
-                    moderation flows, and premium access support.
-                  </p>
-                  <div class="project-slider" data-slider>
-                    <button class="slider-arrow slider-arrow-prev" type="button" aria-label="Previous image">
-                      &larr;
-                    </button>
-                    <div class="project-gallery-window">
-                      <div class="project-gallery-track">
-                        <img src="assets/geosocial-login-dark.png" alt="GeoSocial dark login screen" />
-                        <img src="assets/geosocial-onboarding-1.png" alt="GeoSocial onboarding safety screen" />
-                        <img src="assets/geosocial-onboarding-2.png" alt="GeoSocial onboarding connect locally screen" />
-                        <img src="assets/geosocial-onboarding-3.png" alt="GeoSocial onboarding permissions screen" />
-                        <img src="assets/geosocial-login.png" alt="GeoSocial login screen" />
-                        <img src="assets/geosocial-apple-signin.png" alt="GeoSocial Apple sign in sheet" />
-                        <img src="assets/geosocial-home.png" alt="GeoSocial home feed screen" />
-                        <img src="assets/geosocial-observation.png" alt="GeoSocial observation feed screen" />
-                        <img src="assets/geosocial-user-profile.png" alt="GeoSocial public profile screen" />
-                        <img src="assets/geosocial-report-user.png" alt="GeoSocial report user screen" />
-                        <img src="assets/geosocial-report-menu.png" alt="GeoSocial report menu screen" />
-                        <img src="assets/geosocial-map.png" alt="GeoSocial map screen" />
-                        <img src="assets/geosocial-shout-text.png" alt="GeoSocial create text shout screen" />
-                        <img src="assets/geosocial-shout.png" alt="GeoSocial create shout screen" />
-                        <img src="assets/geosocial-terms.png" alt="GeoSocial shout terms screen" />
-                        <img src="assets/geosocial-alerts.png" alt="GeoSocial notifications screen" />
-                        <img src="assets/geosocial-settings.png" alt="GeoSocial settings screen" />
-                        <img src="assets/geosocial-blocked-users.png" alt="GeoSocial blocked users screen" />
-                        <img src="assets/geosocial-security-settings.png" alt="GeoSocial security settings screen" />
-                      </div>
-                    </div>
-                    <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next image">
-                      &rarr;
-                    </button>
-                    <div class="slider-dots" aria-label="Slider pagination"></div>
-                  </div>
-                  <div class="project-links">
-                    <a href="https://drive.google.com/file/d/1TXm4jawUw5dE7-v9bVN6MyOw6X6GFKiP/view?usp=sharing" target="_blank" rel="noreferrer">Video Demo</a>
-                    <a href="https://drive.google.com/file/d/1rD-7iERzhzgBUO-MYwJsh7x9DanHJK4m/view?usp=sharing" target="_blank" rel="noreferrer">APK Link</a>
-                  </div>
-                </div>
-              </article>
-
+              <!-- PROJECT 04: AUTHOR'S LIBRARY -->
               <article class="project-card project-card-rich reveal delay-3">
                 <div class="project-preview">
-                                    <img src="assets/group-973.png" alt="GeoSocial portfolio mockup" />
+                                    <img src="assets/group-973.png" alt="The Dig portfolio mockup" />
 
                 </div>
                 <div class="project-body">
                   <div class="project-head">
                     <span class="project-number">04</span>
-                    <h3>Author's Library / The Dig Style Publishing & Wellness Work</h3>
+                    <h3>Author's Library / Publishing & Wellness</h3>
                   </div>
                   <p>
                     Experience working on content-rich products with structured journaling, premium
@@ -457,31 +505,31 @@
                     </button>
                     <div class="project-gallery-window">
                       <div class="project-gallery-track">
-                        <img src="assets/thedig-login.png" alt="The Dig login screen" />
-                        <img src="assets/thedig-focus.png" alt="The Dig focus areas screen" />
-                        <img src="assets/thedig-weekly-practice.png" alt="The Dig weekly practice screen" />
-                        <img src="assets/thedig-content-preferences.png" alt="The Dig content preferences screen" />
-                        <img src="assets/thedig-frequency.png" alt="The Dig set frequency screen" />
-                        <img src="assets/thedig-home.png" alt="The Dig home screen" />
-                        <img src="assets/thedig-journal.png" alt="The Dig journal screen" />
-                        <img src="assets/thedig-personal-journal.png" alt="The Dig personal journal screen" />
-                        <img src="assets/thedig-excavation.png" alt="The Dig excavation screen" />
-                        <img src="assets/thedig-feed.png" alt="The Dig murmuration feed screen" />
-                        <img src="assets/thedig-post.png" alt="The Dig post detail screen" />
-                        <img src="assets/thedig-share-sheet.png" alt="The Dig share sheet screen" />
-                        <img src="assets/thedig-meditations.png" alt="The Dig meditations screen" />
-                        <img src="assets/thedig-favorites.png" alt="The Dig favorites screen" />
-                        <img src="assets/thedig-profile.png" alt="The Dig profile screen" />
-                        <img src="assets/thedig-account.png" alt="The Dig account screen" />
-                        <img src="assets/thedig-notification-settings.png" alt="The Dig notification settings screen" />
-                        <img src="assets/thedig-focus-selected.png" alt="The Dig selected focus area screen" />
-                        <img src="assets/thedig-plan.png" alt="The Dig subscription plan screen" />
-                        <img src="assets/thedig-password.png" alt="The Dig password change screen" />
-                        <img src="assets/thedig-about.png" alt="The Dig about screen" />
-                        <img src="assets/thedig-create-quote.png" alt="The Dig create quote screen" />
-                        <img src="assets/thedig-my-quotes.png" alt="The Dig my quotes screen" />
-                        <img src="assets/thedig-dig-empty.png" alt="The Dig empty excavation state screen" />
-                        <img src="assets/thedig-dig-empty-2.png" alt="The Dig excavation refresh screen" />
+                        <img src="assets/thedig-login.png" alt="The Dig screen" />
+                        <img src="assets/thedig-focus.png" alt="The Dig screen" />
+                        <img src="assets/thedig-weekly-practice.png" alt="The Dig screen" />
+                        <img src="assets/thedig-content-preferences.png" alt="The Dig screen" />
+                        <img src="assets/thedig-frequency.png" alt="The Dig screen" />
+                        <img src="assets/thedig-home.png" alt="The Dig screen" />
+                        <img src="assets/thedig-journal.png" alt="The Dig screen" />
+                        <img src="assets/thedig-personal-journal.png" alt="The Dig screen" />
+                        <img src="assets/thedig-excavation.png" alt="The Dig screen" />
+                        <img src="assets/thedig-feed.png" alt="The Dig screen" />
+                        <img src="assets/thedig-post.png" alt="The Dig screen" />
+                        <img src="assets/thedig-share-sheet.png" alt="The Dig screen" />
+                        <img src="assets/thedig-meditations.png" alt="The Dig screen" />
+                        <img src="assets/thedig-favorites.png" alt="The Dig screen" />
+                        <img src="assets/thedig-profile.png" alt="The Dig screen" />
+                        <img src="assets/thedig-account.png" alt="The Dig screen" />
+                        <img src="assets/thedig-notification-settings.png" alt="The Dig screen" />
+                        <img src="assets/thedig-focus-selected.png" alt="The Dig screen" />
+                        <img src="assets/thedig-plan.png" alt="The Dig screen" />
+                        <img src="assets/thedig-password.png" alt="The Dig screen" />
+                        <img src="assets/thedig-about.png" alt="The Dig screen" />
+                        <img src="assets/thedig-create-quote.png" alt="The Dig screen" />
+                        <img src="assets/thedig-my-quotes.png" alt="The Dig screen" />
+                        <img src="assets/thedig-dig-empty.png" alt="The Dig screen" />
+                        <img src="assets/thedig-dig-empty-2.png" alt="The Dig screen" />
                       </div>
                     </div>
                     <button class="slider-arrow slider-arrow-next" type="button" aria-label="Next image">
@@ -490,7 +538,7 @@
                     <div class="slider-dots" aria-label="Slider pagination"></div>
                   </div>
                   <div class="project-links">
-                    <a href="https://drive.google.com/file/d/18lptfI1kDQ97_mNlv9MNfSf6xWxgXm_1/view?usp=drive_link" target="_blank" rel="noreferrer">Video Demo</a>
+                    <a href="https://drive.google.com/file/d/18lptfI1kDQ97_mNlv9MNfSf6xWxgXm_1/view?usp=drive_link" target="_blank" rel="noreferrer" class="btn-demo">Video Demo</a>
                   </div>
                 </div>
               </article>
