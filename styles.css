@@ -337,6 +337,13 @@ strong {
   letter-spacing: 0.04em;
 }
 
+.hero-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .panel-summary {
   margin-top: 1rem;
 }
